@@ -21,6 +21,6 @@ text(modFit$finalModel, use.n=TRUE, all=TRUE, cex=.8)
 # Prettier plots
 install.packages("rattle")
 library(rattle)
-fancyRpartPlot(modFit$finalModel)
+fancyRpartPlot(modFit$finalModel) 
     
 predict(modFit, newdata=testing)
