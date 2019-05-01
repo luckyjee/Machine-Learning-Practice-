@@ -22,5 +22,5 @@ text(modFit$finalModel, use.n=TRUE, all=TRUE, cex=.8)
 install.packages("rattle")
 library(rattle)
 fancyRpartPlot(modFit$finalModel)
-   
+    
 predict(modFit, newdata=testing)
